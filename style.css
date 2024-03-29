@@ -9,19 +9,61 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 60%;
+  height: minmax(100px, 700px);
+  background: #8fff85;
+}
+body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 #add-book {
   padding: 10px;
   background: #1f1499;
   margin: 20px;
+  border-radius: 10px;
+}
+#content {
+  padding: 10px;
+}
+
+#addFormButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hide the form elements initially */
+#content input,
+#content textarea {
+  display: none;
 }
