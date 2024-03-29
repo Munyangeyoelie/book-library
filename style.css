@@ -49,21 +49,3 @@ body div {
   margin: 20px;
   border-radius: 10px;
 }
-#content {
-  padding: 10px;
-}
-
-#addFormButton {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-/* Hide the form elements initially */
-#content input,
-#content textarea {
-  display: none;
-}
