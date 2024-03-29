@@ -53,6 +53,19 @@ body {
   margin: 10px;
   font-size: 20px;
 }
+.closebtn {
+  margin-left: 10px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 20px;
+  transition: 0.3s;
+  border-radius: 10px;
+  background: #1f1499;
+}
 
 #book-form {
   display: flex;
