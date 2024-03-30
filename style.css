@@ -88,7 +88,9 @@ input {
 }
 #submit {
   background:50CF30;
-   
+  border: none;
+  color: white;
+
 
 
 }
