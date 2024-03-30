@@ -40,8 +40,7 @@ body {
 #add-book {
   padding: 10px;
   background: #000;
-  margin: 20px;
-  border-radius: 10px;
+
 }
 
 .add {
@@ -52,6 +51,7 @@ body {
   padding: 5px;
   margin: 10px;
   font-size: 20px;
+  color: white;
 }
 .closebtn {
   margin-left: 10px;
@@ -90,6 +90,10 @@ input {
   background:50CF30;
   border: none;
   color: white;
+  margin: 20px;
+  border-radius: 10px;
+  color: #fff;
+
 
 
 
