@@ -39,7 +39,7 @@ body {
 
 #add-book {
   padding: 10px;
-  background: #1f1499;
+  background: #000;
   margin: 20px;
   border-radius: 10px;
 }
@@ -81,3 +81,15 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+#read {
+    border: 1px solid ;
+    padding" 10px;
+    margin: 10px
+}
+#submit {
+  background:50CF30;
+   
+
+
+}
+
